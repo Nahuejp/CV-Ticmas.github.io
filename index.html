@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Nahuel Santaularia</title>
+</head>
+<body>
+    <!-- INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>                             
+                </div>
+                <nav id="nav" class="nav">
+                    <button class="btn" id="cambiarColoresBtn">Modo Nocturno</button>                              
+                    <a href="#inicio">Inicio</a>
+                    <a href="#informacion">información</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="logo">
+                    N<span class="color">S</span>
+                </div>
+                
+            </header>
+            <div class="presentacion">
+                <h1>Nahuel Santaularia</h1>
+                <h2>Front-End Junior, Estudiante de Lic. de Ciencia Política</h2>
+                <div class="redes">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>                    
+                    <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.youtube.com/"target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://ar.linkedin.com/"target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>                
+                </div>
+            </div>
+            <div class="foto">
+                <img src="Img/CV1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- informacion -->
+    <section class="informacion original" id="informacion">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Información</h2>
+            <h3>Detalles personales</h3>
+
+            <p class="especial">Me estoy introduciendo al mundo del Desarrollo Web y tambien soy estudiante avanzado de la Lic. en Ciencia Politica en la Universidad Nacional de Villa Maria.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aperiam dolores incidunt nostrum alias libero ipsam cum molestias id! Assumenda ad culpa voluptate? Iure placeat odit deserunt consequatur, est earum!</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus a, ut error sunt, nobis facilis, aliquam libero labore voluptate delectus quae molestias commodi saepe atque explicabo unde quisquam consequuntur eligendi.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="habilidades original" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                            
+                        </div>
+                        <span>98%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            </div>                            
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- CONTACTO -->
+    <section class="contacto original" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Escribime ahora mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-brands fa-whatsapp"></i> Whatsapp
+                    </h2>
+                    <span class="info-contacto">+54 3516786279</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> E-mail
+                    </h2>
+                    <span class="info-contacto">nahuelsantaularia@gmail.com</span>                
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
